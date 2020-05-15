@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#Home .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: left;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#Home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTO9Op4NZyE2CL3fWDEGuCVaULAH7pezeerD3O19dLvWvt9idm6&usqp=CAU');
+}
+
+#About {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.newindianexpress.com/uploads/user/imagelibrary/2019/3/7/w900X450/Take_in_the_Scenery.jpg');
+}
+
+#Experience {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTanp5TnvTux1mKrkjZOWVYoKvirCNamNLljMJQFNvDV6W4pojb&usqp=CAU');
+}
+
+#Projects {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS368tzTOgV6SVMrtrfy2tVPmSiLQ19-OE-LMdXmkVM4Y2x1dA4&usqp=CAU');
+}
+
+#Skills {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSLGqXP9r-nVZiSq46GvbOE5KADn1-StTm_cFDaiGjbYbQ3uGWd&usqp=CAU');
+}
+
+#Certificates {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-CIx6miiE22FfUfiLLVbB4hY3BTQxwfn-IBwPFXR_hZNr-uTu&usqp=CAU');
+}
+
+#Education {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgzr_yLSvWIY0Zfw84T2io5e_3y5fw3Bq0eVQIdPzWWYnK7t6I&usqp=CAU');
+}
+
+#Contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnYzT9n2O334O9l0pNC6_OIDEZDCdPDgD0BeYbN3AYrF_AWKtG&usqp=CAU');
+}
+#Resume1 {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzE4FfW2m9KFrweT76KTmT2bk_HgatxVxP9uqk1Ad-AlQusb73&usqp=CAU');
+}
+
+#Resume2 {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media.cntraveler.com/photos/5cedafa8d3381df5e267daf2/4:3/w_420,c_limit/Lofoten-Islands-_GettyImages-583610815.jpg');
+}
